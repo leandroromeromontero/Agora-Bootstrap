@@ -1,0 +1,124 @@
+h1 {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h3 {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+  text-align: center;
+}
+
+a,
+.navbar-dark .navbar-nav .nav-link {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.btn {
+  margin-left: 4px;
+}
+
+.btn:hover {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#IMG {
+  padding: 3%;
+}
+
+#Title {
+  background-color: #445571;
+}
+
+#Titulo {
+  margin-left: 15px;
+  text-align: center;
+}
+
+#features {
+  text-align: center;
+  padding: 15%;
+}
+
+.fade-in {
+  animation: fadeIn ease 2s;
+  -webkit-animation: fadeIn ease 2s;
+  -moz-animation: fadeIn ease 2s;
+  -o-animation: fadeIn ease 2s;
+  -ms-animation: fadeIn ease 2s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+#testimonials {
+  padding: 5%;
+  background-color: #714455;
+}
+
+#press{
+  padding: 10% 1%;
+}
+
+#pricing{
+  padding: 10%;
+  background-color: #6c7144;
+}
+
+#cta{
+  padding: 5%;
+}
